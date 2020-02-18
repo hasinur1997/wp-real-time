@@ -1,0 +1,27 @@
+{
+    "name": "notification",
+    "description": "A real time WordPress based application",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Hasinur Rahman",
+            "email": "hasinurrahman3@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "includes/admin",
+            "includes/events"
+        ],
+        "files": [
+            "includes/functions.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "composer/installers": ">=1.4",
+        "pusher/pusher-php-server": "^3.4@dev"
+    }
+}
