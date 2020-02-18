@@ -10,5 +10,5 @@ A Real Time notification for WordPress
 ## Installation
 
 * Clone the repository inside `/wp-content/plugins/`
-* CD into folder `cd wp-erp` and run `composer install`
+* CD into folder `cd wp-real-time` and run `composer install`
 * Lastly run `composer dump-autoload -o`
